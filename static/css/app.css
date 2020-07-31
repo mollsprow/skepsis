@@ -3,3 +3,38 @@ body {
   background-color: red;
 }
 */
+
+/*general*/
+body {font-family: 'Balsamiq Sans', Arial, Helvetica, sans-serif; background-color: #525252; font-size: 1.4rem;}
+p {color:#ddd;}
+ul {color:#ddd;}
+a {color:#06969c;}
+h2 {color:aqua;}
+h4 {color:#00a9a6;}
+a.button {max-width:400px; padding:10px; background-color:#089197; color:#fff; border:1px solid #fff; border-radius:15px; margin:40px auto; display:block; font-size:1rem; text-align:center;}
+a.button:hover {background-color:#0d676b;}
+
+/*bootstrap overrides*/
+.list-group-item.active {color:#fff; background-color:#06969c;}
+.card {border-radius: 15px; }
+
+.container.fullwidth {background-color: #fff; width:100% !important; max-width:100%!important; border-bottom:1px solid #f0f0f0}
+.container.fullwidth img {padding:10px; margin:0 auto; display:block;}
+.secNav {margin-top:50px;}
+.secNav li { }
+.secNav li.active {}
+.secNav li a {border:1px solid #d0d0d0; margin:0 1rem; padding:2rem; background:#88abac; border-radius: 15px; display:inline-block;color:#525252;}
+.secNav li.active a {font-weight: bold; border:aqua; background:#d0d0d0}
+.secNav li a:hover {background-color:#089197;}
+.introBoard {text-align: center; padding:50px 0 ;}
+.introImage {display:block;  padding:2rem 0 75px;}
+
+.bodyContent {padding:50px 0;}
+
+.teamCards {margin-bottom:40px; }
+.teamCards img {width:100px; margin:0 auto;}
+
+/*content scroll thingy*/
+.scrollspy-example {height:100px; overflow-y:scroll;}
+ 
+ 
