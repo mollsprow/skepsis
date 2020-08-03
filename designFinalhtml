@@ -46,32 +46,38 @@
     <div class="container secNav">
       <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" href="researchShyft.html">Shyft Meetings</a>
+          <a class="nav-link" href="designWires.html">Initial Wireframes</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="researchInterviews.html">Interviews</a>
+          <a class="nav-link" href="designTesting.html">Usability Testing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="researchHeuristics.html">Heuristics</a>
+          <a class="nav-link" href="designUpdated.html">Enhanced Wireframes</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="researchMarket.html">Market</a>
+        <li class="nav-item">
+          <a class="nav-link" href="designFinal.html">Summary of Recommendations</a>
         </li>
       </ul>
     </div>
    
-    <div class="container bodyContent">
-      <h4>Additionally we conducted market research.. and poked around at Shyft a bit more.</h4>
+    <div class="container introBoard">
+     
+      <div class="introBoardText">
+         <h4>"OK.. So.. anyone got any ideas?"</h4>
+      </div>
+      Join Me - Change to Sign Up. 
+      Not in actuality joining something. Signing up for a service. 
+
+      Remove steps in sign up process. 
+      Let users do that later once they get into the system.
+
+      Put the information directly in front of the clients. 
+      Don't make them get to the errors before they happen.
+
+      Change your payment widget to include checking. 
+      There are more than one service out there that do this (see resources page)
     </div>
-    
-  <div class="container">
-    <div class="row">
-      
-
-
-    </div>
-  </div>
-
+   
 
 
 

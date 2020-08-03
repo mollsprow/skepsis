@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;700&family=Gochi+Hand&display=swap" rel="stylesheet">
     <!-- Bootstrap 4.5.0 -->
     <link rel="stylesheet" href="static/vendor/bootstrap_4.5.0/css/bootstrap.min.css?v=4.5.0" />
 
@@ -13,30 +13,32 @@
     <link rel="stylesheet" href="static/css/app.css?v=0.1" />
     <!-- Change the `v=0.1` to a different number if there are cache issues. -->
 
-    <title>skepsis + shyft = <3</title>
+    <title>molly prower loves cheese</title>
   </head>
   <body >
     
     <div class="container fullwidth">
-      <img src="static/img/sksh.png" alt="Skepsis Plus Shyft Plus MyCommunitySite Equals Success" style="width:200px;" />
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="team.html">Skepsis</a>
+          <a class="nav-link active" href="team.html">Skepsi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="research.html">Research Journey</a>
+            <a class="nav-link" href="research.html">Research Journey</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Design Journey</a>
+          <a class="nav-link" href="design.html">Design Journey</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">Video/Media</a>
         </li>
         <li class="nav-item">
           <a class="nav-link disabled" href="#">With Sprinkles</a>
+        </li>
+        <li class="last">
+            <img src="static/img/sksh.png" alt="Skepsi Plus Shyft Plus MyCommunitySite Equals Success" style="width:150px;" />
         </li>
       </ul>
     </div>
@@ -57,87 +59,232 @@
         </li>
       </ul>
     </div>
-   
+    
     <div class="container  bodyContent">
-      <p>
-        Heuristics are a thing that a guy came up with, and we use them to test the usability of a website. They're really trusted and widely used. So we did that with joining as well as 
-        in the builder and we found a lot of issues. below is an exploration of what we learned. 
+       <p>
+        A heuristic study helps to identify issues with the usability of user interfaces using a set of rules, or heuristics, as a guide. We used the findings from our study as the focus of our usability improvement efforts. Below is a breakdown of the types of issues we found, as well our recommendations for alleviating them.
       </p>
-      <p>You can read the summary at the top if you don't feel like going through all of them. There's a lot of reading here and frankly, we don't like to do it either.</p>
+      
+      <h5>Resources for information on heuristic evaluations:</h5>
+      <ul>
+        <li><a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Detailed information about heuristics @ nngroup.com</a></li>
+        <li><a href="https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/">How to conduct a heuristic evaluation @ nngroup.com</a></li>
+      </ul>
     </div>
     
+
+    <div class="container teamCards">
+      <div class="row">
+          <div class="col">
+              <div class="card redcard">
+                   
+                  <div class="card-body">
+                  <h5 class="card-title">20</h5>
+                  <p class="card-text">issues ranking at severity 3</p>
+                  </div>
+                 
+                 
+              </div>
+          </div>
+          <div class="col">
+            <div class="card orangecard">
+                 
+                <div class="card-body">
+                <h5 class="card-title">8</h5>
+                <p class="card-text">issues rating at severity 2</p>
+                </div>
+               
+               
+            </div>
+        </div>
+        <div class="col">
+          <div class="card yellowcard">
+               
+              <div class="card-body">
+              <h5 class="card-title">4</h5>
+              <p class="card-text">issues rating at severity 1</p>
+              </div>
+             
+             
+          </div>
+      </div>
+        </div>
+    </div>
+
+    <div class="container teamCards">
+      <div class="row">
+          <div class="col">
+              <div class="card bluecard">
+                   
+                  <div class="card-body">
+                  <h5 class="card-title">18</h5>
+                  <p class="card-text">associated with building or maintaining a site</p>
+                  </div>
+                 
+                 
+              </div>
+          </div>
+          <div class="col">
+            <div class="card bluecard">
+                 
+                <div class="card-body">
+                <h5 class="card-title">14</h5>
+                <p class="card-text">associated with signing up for the service</p>
+                </div>
+               
+               
+            </div>
+        </div>
+        
+        </div>
+    </div>
+  
+
+
+
+
+
+
   <div class="container">
     <div class="row">
-      <div class="col-sm-2">
+      <div class="col-sm-4">
       <div id="heuristics" class="list-group">
-        <a class="list-group-item list-group-item-action" href="#list-summary">Summary</a>
+        <a class="list-group-item list-group-item-action" href="#list-summary">Severity Ratings</a>
         <a class="list-group-item list-group-item-action" href="#list-item-1">#1: Visibility of system status</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-5">Item 5</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-6">Item 6</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-7">Item 7</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-8">Item 8</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-9">Item 9</a>
-        <a class="list-group-item list-group-item-action" href="#list-item-10">Item 10</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">#2: Match between system and the real world</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">#3: User control and freedom</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">#4: Consistency and standards</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-5">#5: Error prevention</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-6">#6: Recognition rather than recall</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-7">#7: Flexibility and efficiency of use</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-8">#8: Aesthetic and minimalist design</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-9">#9: Help users recognize, diagnose, and recover from errors</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-10">#10: Help and documentation</a>
       </div>
     </div>
-    <div class="col-sm-10">
+    <div class="col-sm-8">
       <div data-spy="scroll" data-target="#heuristics" data-offset="0" class="scrollspy-example">
-        <h4 id="list-summary">#1: Visibility of system status</h4>
+        <h4 id="list-summary" style="border-top:0;">Severity Ratings</h4>
         <div class="heurContainer">
-          <p class="heurDesc"></p>
+          <p class="heurDesc"> 
+             
+            <h5>Rating scale </h5>
+            <ul>
+              <li>0 = I don't agree that this is a usability problem at all </li>
+              <li>1 = Cosmetic problem only: need not be fixed unless extra time is available on project </li>
+              <li> 2 = Minor usability problem: fixing this should be given low priority </li>
+              <li> 3 = Major usability problem: important to fix, so should be given high priority </li>
+              <li> 4 = Usability catastrophe: imperative to fix this before product can be released</li>
+            </ul>
+          </p>
         </div>
       
         <h4 id="list-item-1">#1: Visibility of system status</h4>
         <div class="heurContainer">
           <p class="heurDesc">The system should always keep users informed about what is going on, through appropriate feedback within reasonable time.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Include visual confirmation clues such as checkmarks</li>
+            <li>Show progress bars in the onboarding process</li>
+            <li>Use text to notify users of system changes, such as successful publishing and saving</li>
+          </ul>
         </div>
         
         <h4 id="list-item-2">#2: Match between system and the real world</h4>
         <div class="heurContainer">
           <p class="heurDesc">The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Reference similar services and mimic common UI patterns</li>
+            <li>Use UI to influence the user's actions and walk them through tasks</li>
+          </ul>
         </div>
 
         <h4 id="list-item-3">#3: User control and freedom</h4>
         <div class="heurContainer">
           <p class="heurDesc">Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Provide more information on usage of text inputs and customizable areas</li>
+            <li>Build backups and undos and breadcrumbs into the UI</li>
+            <li>Allow users more control over the content in their sites, such as deleting photos</li>
+          </ul>
         </div>
 
         <h4 id="list-item-4">#4: Consistency and standards</h4>
         <div class="heurContainer">
           <p class="heurDesc">Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>"Clean up" the design for consistency</li>
+            <li>Edit the dialogs and text on the page to be more understandable</li>
+            <li>Use modern conventions for interactive elements such as buttons and inputs</li>
+          </ul>
         </div>
 
         <h4 id="list-item-5">#5: Error prevention</h4>
         <div class="heurContainer">
           <p class="heurDesc">Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Build undos into the UI</li>
+            <li>Make the user enter their password in twice when signing up</li>
+            <li>Add warnings for content deletion and other sensitive areas</li>
+          </ul>
         </div>
 
         <h4 id="list-item-6">#6: Recognition rather than recall</h4>
         <div class="heurContainer">
           <p class="heurDesc">Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Include visual location clues /li>
+            <li>Add tooltips and labels for almost everything</li>
+           </ul>
         </div>
 
         <h4 id="list-item-7">#7: Flexibility and efficiency of use</h4>
         <div class="heurContainer">
           <p class="heurDesc">Accelerators — unseen by the novice user — may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Add accessibility and improve keyboard navigation</li>
+            <li>Make clickable areas larger</li>
+            <li>Improve the usability of the responsive design</li>
+          </ul>
         </div>
 
         <h4 id="list-item-8">#8: Aesthetic and minimalist design</h4>
         <div class="heurContainer">
           <p class="heurDesc">Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Edit the wording to be more clear and less heavy</li>
+            <li>Arrange the dashboard to be less heavy, move the news</li>
+            <li>Present the information on each page in a more intuitive way</li>
+          </ul>
         </div>
 
         <h4 id="list-item-9">#9: Help users recognize, diagnose, and recover from errors</h4>
         <div class="heurContainer">
           <p class="heurDesc">Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Add notifications for action completion</li>
+            <li>Add undo buttons and warnings for sensitive actions</li>
+            <li>Fix all of the error pages and make them modal windows</li>
+          </ul>
         </div>
 
         <h4 id="list-item-10">#10: Help and documentation</h4>
         <div class="heurContainer">
           <p class="heurDesc">Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Be more descriptive of sections of the site without being over bearing</li>
+            <li>Create more help and tutorial videos.</li>
+            <li>Create first time walkthrough.</li>
+          </ul>
         </div>
  
       </div>
