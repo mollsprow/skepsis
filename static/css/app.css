@@ -6,7 +6,7 @@ body {
 
 /*general*/
 body {font-family: 'Balsamiq Sans', Arial, Helvetica, sans-serif; background-color: #525252; font-size: 1.4rem;}
-p {color:#ddd;}
+p {color:#ddd; font-size:1rem;}
 ul {color:#ddd;}
 a {color:#06969c; }
 h2 {color:aqua;}
@@ -20,8 +20,8 @@ p.subtext {font-size:1rem; text-align:center; margin:30px 0 0 0}
 .list-group-item.active {color:#fff; background-color:#06969c;}
 .card {border-radius: 15px; }
 .card-title {color:#0d676b; text-align:center; font-weight:bold; font-size:1.6rem;}
-.card-text {font-size:1rem; color:#333}
-
+.card-text {font-size:1rem; color:#333; text-align: left;}
+.card-body ul {color: #333; text-align:left; font-size:1rem; padding-left:15px;}
 
 .container.fullwidth {background-color: #fff; width:100% !important; max-width:100%!important; border-bottom:1px solid #f0f0f0; font-size:1rem;}
 .container.fullwidth li  {margin-top:12px;}
@@ -38,23 +38,27 @@ p.subtext {font-size:1rem; text-align:center; margin:30px 0 0 0}
 .bodyContent {padding:50px 0;}
 .bodyContent h4 {text-align: center;}
 .teamCards {margin-bottom:40px; }
-.teamCards img {width:100px; margin:20px auto 0 auto;}
+.teamCards img {width:100px; margin:0 auto 20px auto; text-align: center; display: block}
 .researchCard .card {height:450px;}
 
 /*card colors*/
-.yellowcard, .yellowcard p, .yellowcard h5 {background-color:#f2f3b1; color:#666500; text-align:center}
-.orangecard, .orangecard p, .orangecard h5  {background-color:#efd282; color:#836000;text-align:center}
-.redcard, .redcard p, .redcard h5 {background-color:#f1b186; color:#8a3700;text-align:center}
+.interviewCards .card {height:370px;}
+.yellowcard, .yellowcard p, .yellowcard h5 {background-color:#fffcb0; color:#666500; text-align:center}
+.orangecard, .orangecard p, .orangecard h5  {background-color:#f1cc64; color:#836000;text-align:center}
+.redcard, .redcard p, .redcard h5 {background-color:#f19a86; color:#8a3700;text-align:center}
+.greencard, .greencard p, .greencard h5  {background-color:#cfffac; color:#245600;text-align:center}
 .bluecard, .bluecard p, .bluecard h5 {background-color:#bdebf1; color:#2a737e;text-align:center}
-.redcard h5, .yellowcard h5 , .orangecard h5, .bluecard h5 {font-weight:bold; font-size:2rem;}
+.redcard h5, .yellowcard h5 , .orangecard h5, .bluecard h5, .greencard h5 {font-weight:bold; font-size:2rem;}
+.redcard img, .yellowcard img , .orangecard img, .bluecard img, .greencard img {width:65px;}
 
 /*content scroll thingy*/
 .scrollspy-example {font-size:1rem; height:590px; overflow-y:scroll; margin-bottom:50px; border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
+.interviews { height:590px; background-color: #fff;}
 .list-group {font-size:1rem;}
 .scrollspy-example h4 {margin-top:10px; border-top:1px solid #333; padding-top:20px;}
  
  /*wireframe carousel*/
- .wireframeCarousel {height:600px; width:1024px; background:#333; margin-top:30px}
+ .wireframeCarousel {height:600px; width:1024px; background:#333; }
  .wireframeCarousel .carousel-item {padding-top:20px;}
  .wireframeCarousel .carousel-item p {font-size:1rem;}
  .wireframeCarousel .carousel-item img {text-align: center ; margin: 0px auto;}

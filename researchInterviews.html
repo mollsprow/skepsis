@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="static/css/app.css?v=0.1" />
     <!-- Change the `v=0.1` to a different number if there are cache issues. -->
 
-    <title>molly prower loves cheese</title>
+    <title>Skepsi + Shyft = <3</title>
   </head>
   <body >
     
@@ -49,7 +49,7 @@
           <a class="nav-link" href="researchShyft.html">Shyft Meetings</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="researchInterviews.html">Interviews</a>
+          <a class="nav-link" href="researchInterviews.html">Usability Testing</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="researchHeuristics.html">Heuristics</a>
@@ -64,18 +64,192 @@
     
 
   <div class="container  bodyContent">
-    <p>Remote usability testing was conducted from July 1-10th, 2020. 9 participants, ages X-X were chosen due to their closeness in age bracket and computer literacy of current MyCommunitySite.com members and target clients. 
+    <p>Remote usability testing was conducted from July 1-10th, 2020. 9 participants, ages 50-75 were chosen due to their closeness in age bracket and computer literacy of current MyCommunitySite.com members and target clients. 
       Participants were asked to go to MyCommunitySite.com, join the site, and navigate through the signup process. </p>
-    <ul>
-      <li>Signup was a huge problem - no one knew what to put in the app example</li>
-      <li>Couldn't read the error messages</li>
-      <li>Found a bunch of broken links</li>
-      <li>Users couldn't understand what themes were because they all said the same thing</li>
-      <li>Uploading documents caused issues</li>
-      <li>No confidence in what they were purchasing - plans unclear</li>
-    </ul>
-    <a href="userTesting-join.ppt" class="button">Full usability report (Google slides - public link)</a>
+     
+    
   </div>
+
+  <div class="container teamCards interviewCards">
+    <div class="row">
+
+        <div class="col">
+            <div class="card redcard">
+                 
+                <div class="card-body">
+                 <img src="static/img/mad.png"> 
+                 <ul class="cart-text">
+                  <li>Unfamiliar UI and lack of information led users to become confused and ask for guidance.</li>
+                  <li>There are several dead ends and error pages with no way to know what the issues are or recover.</li>
+                </ul>
+                </div>
+               
+               
+            </div>
+        </div>
+
+          <div class="col">
+            <div class="card orangecard">
+                
+                <div class="card-body">
+                <img src="static/img/sad.png"> 
+                <ul class="cart-text">
+                  <li>The sign up process took up to 12 minutes to complete for some users.</li>
+                  <li>Many users were confused by the payment page, unsure of what each plan is.</li>
+                </ul>
+                </div>
+              
+              
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card yellowcard">
+              
+              <div class="card-body">
+               <img src="static/img/ok.png"> 
+                <ul class="cart-text">
+                  <li>Users did not understand what the page and theme selection was due to lack of information.</li>
+                  <li>Many users were confused by the payment page, unsure of what each plan is.</li>
+                </ul>
+              </div>
+            
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card greencard">
+              
+              <div class="card-body">
+               <img src="static/img/happy.png"> 
+                <ul class="cart-text">
+                  <li>All users felt the process was very straightforward.</li>
+                  <li>No major changes are needed to improve the sign up process - mostly simplification.</li>
+                </ul>
+              </div>
+            
+            
+          </div>
+        </div>
+
+      </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+      <div id="heuristics" class="list-group interviews">
+        <a class="list-group-item list-group-item-action" href="#list-item-1">Homepage</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-2">Sign Up</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-3">Getting Started</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-4">Select Theme</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-5">Association Details</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-6">Select Pages</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-7">Add Members</a>
+        <a class="list-group-item list-group-item-action" href="#list-item-8">Pick a Plan</a>
+      </div>
+    </div>
+    <div class="col-sm-8">
+      <div data-spy="scroll" data-target="#heuristics" data-offset="0" class="scrollspy-example">
+         
+      
+        <h4 id="list-item-1">Homepage</h4>
+        <div class="heurContainer">
+          <ul>
+            <li>7 of 9 users did not have issues finding the “Join Now” link at the top of the page. </li>
+            <li>2 users scrolled up and down on the page looking for a way to join.  </li>
+            <li> One user spent almost 2 minutes looking for a way to join the site. </li>
+          </ul>
+          <p><b>Recommendations:</b></p>
+          <p class="heurDesc">Make the Join Me link more prominent in the top right corner by styling it as a button. Larger font, bright colors, and a background. Change the name from "Join me" to "Sign Up"
+          </p>
+         
+        </div>
+        
+        <h4 id="list-item-2">Sign Up</h4>
+        <div class="heurContainer">
+          <ul>
+            <li>7 of 9 users put an email address or “www.” “.com” as their site name
+            </li>
+            <li>Disclaimer and TOS links are broken
+            </li>
+            <li> One user was concerned about the security of the website and their password </li>
+          </ul>
+          <p><b>Recommendations:</b></p>
+<ul><li> Show instructions for site name and password upfront with more clear, understandable language</li>
+  <li> Use more common UI standards </li>
+  <li> Fix error for Disclaimer and Terms of Service</li>
+  <li> Redesign error response, allow user to go back or see error without having to use browser back bar</li>
+    <li> Make error messages more prominent and explanatory</li>
+      <li> Add more introductory text - possibly merge with next screen</li>
+  </ul>
+        </div>
+
+        <h4 id="list-item-3">Getting Started</h4>
+        <div class="heurContainer">
+          <p class="heurDesc">Users did not spend much time reading this page, and did not have trouble moving forward.</p>
+          <p><b>Recommendations:</b></p>
+          <p>Consider removing this page or minimizing the amount of text.
+          </p>
+        </div>
+
+        <h4 id="list-item-4">Select Theme</h4>
+        <div class="heurContainer">
+          <ul>
+            <li>Users didn't understand the differences between the choices.</li>
+            <li>One user had issues selecting any other theme than the first with their browser (IE10)</li>
+            <li>Error links and links in the agreements section are broken.</li>
+          </ul>          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Make larger and more detailed images of the themes available.</li>
+            <li>Test the entire site for cross-browser compatibility.</li>
+            <li>Create pages for the TOS and agreements</li>
+          </ul>
+        </div>
+
+        <h4 id="list-item-5">Association Details</h4>
+        <div class="heurContainer">
+          <p class="heurDesc"> No issues or recommendations for this page.
+          </p>
+        </div>
+
+        <h4 id="list-item-6">Select Pages</h4>
+        <div class="heurContainer">
+          <p class="heurDesc">Some users were not sure what these pages meant, or what they would be for. Others could not select additional pages at all.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Include additional information about pages, or remove this step until after the user joins. </li>
+            <li>Address bugs by making sure the website is cross-browser compatible.</li>
+           </ul>
+        </div>
+
+        <h4 id="list-item-7">Add Members</h4>
+        <div class="heurContainer">
+          <p class="heurDesc">Users get an error when clicking save and next if they have not uploaded a file. There is no way to recover from this error page. Also, users were unsure what member lists were, or what they had to upload.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Make errors throw modal or pop up windows that users can recover from. Include the reason for the error in the window.</li>
+            <li>Remove this step until after the user signs up for the service.</li> 
+          </ul>
+        </div>
+
+        <h4 id="list-item-8">Pick a Plan</h4>
+        <div class="heurContainer">
+          <p class="heurDesc">Users were generally unsure what the plans were and what they were paying for. One user thought they needed to type in the plan they wanted.</p>
+          <p><b>Recommendations:</b></p>
+          <ul>
+            <li>Add more information about the available plans and their cost.</li>
+            <li>Use more common UI patterns for inputs, drop downs, and buttons.</li>
+          </ul>
+        </div>
+ 
+      </div>
+    </div>
+    </div>
+  </div>
+
 
 
     <!-- JS prerequisites for Bootstrap -->
