@@ -15,8 +15,9 @@ h4 {color:#00c9c5; margin-bottom:30px; font-weight: bold;}
 h5 {color:#fff;}
 a.button {max-width:400px; padding:10px; background-color:#089197; color:#fff; border:1px solid #fff; border-radius:15px; margin:40px auto; display:block; font-size:1rem; text-align:center;}
 a.button:hover {background-color:#0d676b;}
+.nav a {color:#06969c;}
 .nav a:hover {color:#00c9c5; text-decoration:underline;}
-.secNav .nav a:hover {color:#333;}
+.secNav .nav a:hover, a.card-link:hover {color:#333;}
 .card-body a.button {margin-top:10px;}
 p.subtext {font-size:1rem; text-align:center; margin:30px 0 0 0}
 .leftalign {text-align: left;}
