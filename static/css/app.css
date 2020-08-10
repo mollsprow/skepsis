@@ -62,7 +62,7 @@ table.table a{text-decoration:underline;}
 .bluecard, .bluecard p, .bluecard h5 {background-color:#bdebf1; color:#2a737e;text-align:center}
 .redcard h5, .yellowcard h5 , .orangecard h5, .bluecard h5, .greencard h5 {font-weight:bold; font-size:2rem;}
 .redcard img, .yellowcard img , .orangecard img, .bluecard img, .greencard img {width:65px;}
-.redcard:hover, .yellowcard:hover , .orangecard:hover, .bluecard:hover, .greencard:hover {border:5px solid #fff;}
+.redcard:hover, .yellowcard:hover , .orangecard:hover, .bluecard:hover, .greencard:hover {border:5px solid #fff; cursor: default; margin:-5px;}
 
 /*content scroll thingy*/
 .scrollspy-example {font-size:1rem; height:590px; overflow-y:scroll; margin-bottom:50px; border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
