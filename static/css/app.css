@@ -9,12 +9,13 @@ body {font-family: 'Baloo Tamma 2', cursive; background-color: #525252; font-siz
 p {color:#ddd; font-size:1rem;}
 ul {color:#ddd;}
 a {color:#00c9c5; }
-a:hover {text-decoration: underline;}
+a:hover {text-decoration: underline; color:#fff;}
 h2 {color:#00c9c5;}
 h4 {color:#00c9c5; margin-bottom:30px; font-weight: bold;}
 h5 {color:#fff;}
 a.button {max-width:400px; padding:10px; background-color:#089197; color:#fff; border:1px solid #fff; border-radius:15px; margin:40px auto; display:block; font-size:1rem; text-align:center;}
 a.button:hover {background-color:#0d676b;}
+.nav a:hover {color:#00c9c5; text-decoration:underline;}
 .card-body a.button {margin-top:10px;}
 p.subtext {font-size:1rem; text-align:center; margin:30px 0 0 0}
 .leftalign {text-align: left;}
@@ -91,4 +92,5 @@ table.table a{text-decoration:underline;}
 
  .thumb-wrapper { position: relative; padding-left: 250px; }
  .thumb-wrapper .thumb { position: absolute; top: 0; left: 0; }
+
  
