@@ -16,6 +16,7 @@ h5 {color:#fff;}
 a.button {max-width:400px; padding:10px; background-color:#089197; color:#fff; border:1px solid #fff; border-radius:15px; margin:40px auto; display:block; font-size:1rem; text-align:center;}
 a.button:hover {background-color:#0d676b;}
 .nav a:hover {color:#00c9c5; text-decoration:underline;}
+.secNav .nav a:hover {color:#333;}
 .card-body a.button {margin-top:10px;}
 p.subtext {font-size:1rem; text-align:center; margin:30px 0 0 0}
 .leftalign {text-align: left;}
@@ -62,6 +63,7 @@ table.table a{text-decoration:underline;}
 .bluecard, .bluecard p, .bluecard h5 {background-color:#bdebf1; color:#2a737e;text-align:center}
 .redcard h5, .yellowcard h5 , .orangecard h5, .bluecard h5, .greencard h5 {font-weight:bold; font-size:2rem;}
 .redcard img, .yellowcard img , .orangecard img, .bluecard img, .greencard img {width:65px;}
+.redcard:hover, .yellowcard:hover , .orangecard:hover, .bluecard:hover, .greencard:hover {border:5px solid #fff;}
 
 /*content scroll thingy*/
 .scrollspy-example {font-size:1rem; height:590px; overflow-y:scroll; margin-bottom:50px; border-bottom:1px solid #ccc;border-top:1px solid #ccc;}
