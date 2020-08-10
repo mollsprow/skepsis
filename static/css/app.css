@@ -38,8 +38,7 @@ table.table a{text-decoration:underline;}
 .container.fullwidth li  {margin-top:12px;}
 .container.fullwidth li.last {margin:10px 0 10px 10px;}
 .secNav {margin-top:50px;}
-.secNav li { }
-.secNav li.active {}
+ 
 .secNav li a {border:1px solid #d0d0d0; margin:0 1rem; padding:1rem; background:#9acbcc; border-radius: 15px; display:inline-block;color:#525252;}
 .secNav li.active a {font-weight: bold; border:aqua; background:#00c9c5}
 .secNav li a:hover {background-color:#00c9c5;}
